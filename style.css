@@ -1,9 +1,6 @@
 /* mobile first */
 
 @media (max-width: 874px) {
-    #img-div img {
-        width: 50%;
-    }
 
     ul {
         display: grid;
@@ -16,10 +13,12 @@
 
 }
 
-@media (min-width: 874px) {
-    
-}
 
+#img-div img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+}
 
 body {
     text-align: center;
